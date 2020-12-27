@@ -24,10 +24,12 @@ Note: Bring up both the containers on same user defined bridge network
 
 # Docker Commands
 
-docker pull drupal
-docker pull postgres
+  docker pull drupal
 
-docker-compose up -d
-docker-compose down
+  docker pull postgres
 
-docker-compose ps
+  docker-compose up -d
+
+  docker-compose down
+
+  docker-compose ps
