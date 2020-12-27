@@ -2,6 +2,12 @@
 
 To create a Docker-compose yaml for the following Multi-container app (Drupal postgres)
 
+## Team Members
+
+Aravind Shreyas Ramesh, USN : 1MS18CS025
+
+Gaurav V, USN : 1MS18CS046
+
 ## Container 1 (front-end)
 
   Front-end image - drupal:8-apache
