@@ -32,7 +32,7 @@ Gaurav V, USN : 1MS18CS046
 
 Note: Bring up both the containers on same user defined bridge network
 
-# Docker Commands
+## Docker Commands
 
   docker pull drupal
 
