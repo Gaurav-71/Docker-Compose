@@ -2,7 +2,7 @@
 
 To create a Docker-compose yaml for the following Multi-container app (Drupal postgres)
 
-## container 1 (front-end)
+## Container 1 (front-end)
 
   Front-end image - drupal:8-apache
   
@@ -17,7 +17,7 @@ To create a Docker-compose yaml for the following Multi-container app (Drupal po
 
           - /var/www/html/sites
 
-## container 2 (database)
+## Container 2 (database)
 
   Back-end image - postgres:10
   
