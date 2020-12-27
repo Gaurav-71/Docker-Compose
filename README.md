@@ -1,4 +1,5 @@
-# Docker-Compose
+# Operating System Assignment 2020
+
 To create a Docker-compose yaml for the following Multi-container app (Drupal postgres)
 
 ## container 1 (front-end)
@@ -20,3 +21,13 @@ To create a Docker-compose yaml for the following Multi-container app (Drupal po
   environment variable -  POSTGRES_PASSWORD: example
 
 Note: Bring up both the containers on same user defined bridge network
+
+# Docker Commands
+
+docker pull drupal
+docker pull postgres
+
+docker-compose up -d
+docker-compose down
+
+docker-compose ps
