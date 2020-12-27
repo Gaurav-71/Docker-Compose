@@ -9,6 +9,7 @@ services:
       - /var/www/html/modules
       - /var/www/html/profiles
       - /var/www/html/themes
+      - /var/www/html/sites
 
   postgres:
     image: postgres:10
