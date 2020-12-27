@@ -27,6 +27,8 @@ Note: Bring up both the containers on same user defined bridge network
   docker pull drupal
 
   docker pull postgres
+  
+  docker-compose config
 
   docker-compose up -d
 
